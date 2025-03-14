@@ -1,20 +1,9 @@
-.button {
-  border: 1px solid #34c94b;
-  background-color: black;
-  color: #34c94b;
-  width: 170;
-  height: 47;
-  top: 13px;
-  left: 1238px;
-  gap: 10px;
-  border-width: 1px;
-  border-radius: 12px;
-  padding-top: 10px;
-  padding-right: 16px;
-  padding-bottom: 10px;
-  padding-left: 16px;
-}
-
-.button:hover {
-  cursor: pointer;
+.button{
+    background-color: var(--color-black);
+    color: var(--color-primary);
+    border-radius: 12px;
+    padding: 10px 16px;
+    margin: 14px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
